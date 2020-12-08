@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Reference";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+<header class="help-page">
+    <div class="content-wrapper">
+        <div class="float-left">
+            <h1>@ViewBag.Title</h1>
+        </div>
+    </div>
+</header>
+<div id="body" class="help-page">
+    <section class="content-wrapper main-content clear-fix">
+        <h2>List</h2>
+        <table class="help-page-table">
+            <thead>
+                <tr><th>Title</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="api-name">Swagger 設定</td>
+                    <td class="api-documentation">
+                        <a href="https://www.tpisoftware.com/tpu/articleDetails/1372" target="_blank">透過 Swagger 自動產生 WebAPI 規格文件</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="api-name">Postman 問題排除</td>
+                    <td class="api-documentation">
+                        <a href="https://blog.csdn.net/linlinxie/article/details/78342749" target="_blank">Postman 無法正常返回结果 Could not get any response</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="api-name">Git 參考</td>
+                    <td class="api-documentation">
+                        <a href="https://gitbook.tw/chapters/using-git/ignore.html" target="_blank">【狀況題】有些檔案我不想放在 Git 裡面…</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
