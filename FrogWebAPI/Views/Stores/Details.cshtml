@@ -1,0 +1,67 @@
+﻿@model FrogWebAPI.Models.Store
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Store</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Demographics)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Demographics)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rowguid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rowguid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BusinessEntity.BusinessEntityID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BusinessEntity.BusinessEntityID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesPerson.BusinessEntityID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesPerson.BusinessEntityID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BusinessEntityID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
