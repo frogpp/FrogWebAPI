@@ -22,7 +22,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
-                    <li><a href="/Webapi/swagger" target="_blank">Swagger</a></li>
+                    <li>@Html.ActionLink("Swagger", "Index", "IFrame", new { option = "Swagger" }, null)</li>
                     <li>@Html.ActionLink("Reference", "Index", "Reference", new { area = "" }, null)</li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">EntityFrame<span class="caret"></span></a>

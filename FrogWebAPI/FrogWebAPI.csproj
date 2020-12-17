@@ -332,6 +332,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IFrameController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ReferenceController.cs" />
     <Compile Include="Controllers\SalesPersonsController.cs" />
@@ -724,16 +725,12 @@
     <Content Include="Views\Stores\Details.cshtml" />
     <Content Include="Views\Stores\Edit.cshtml" />
     <Content Include="Views\Stores\Index.cshtml" />
-    <Content Include="Views\People\Create.cshtml" />
-    <Content Include="Views\People\Delete.cshtml" />
-    <Content Include="Views\People\Details.cshtml" />
-    <Content Include="Views\People\Edit.cshtml" />
-    <Content Include="Views\People\Index.cshtml" />
     <Content Include="Views\SalesPersons\Create.cshtml" />
     <Content Include="Views\SalesPersons\Delete.cshtml" />
     <Content Include="Views\SalesPersons\Details.cshtml" />
     <Content Include="Views\SalesPersons\Edit.cshtml" />
     <Content Include="Views\SalesPersons\Index.cshtml" />
+    <Content Include="Views\IFrame\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
